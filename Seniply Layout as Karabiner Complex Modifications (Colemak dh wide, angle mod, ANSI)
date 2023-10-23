@@ -375,8 +375,9 @@
           },
           "to": [
             {
-              "key_code": "1",
+              "key_code": "slash",
               "modifiers": [
+                "left_shift",
                 "left_alt"
               ],
               "repeat": true
@@ -524,15 +525,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "slash",
-              "modifiers": [
-                "left_shift"
-              ],
-              "repeat": true
-            }
-          ],
           "type": "basic"
         },
         {
@@ -555,8 +547,7 @@
             {
               "key_code": "slash",
               "modifiers": [
-                "left_shift",
-                "left_alt"
+                "left_shift"
               ],
               "repeat": true
             }
@@ -758,7 +749,7 @@
             {
               "key_code": "1",
               "modifiers": [
-                "left_shift"
+                "left_alt"
               ]
             }
           ],
