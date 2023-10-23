@@ -2821,7 +2821,7 @@
           },
           "to": [
             {
-              "key_code": "escape"
+              "key_code": "caps_lock"
             }
           ],
           "type": "basic"
@@ -3072,7 +3072,7 @@
           },
           "to": [
             {
-              "key_code": "caps_lock"
+              "key_code": "escape"
             }
           ],
           "type": "basic"
