@@ -1153,8 +1153,11 @@
           },
           "to": [
             {
-              "key_code": "f14",
-              "repeat": true
+              "key_code": "k",
+              "repeat": true,
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -1690,7 +1693,7 @@
           },
           "to": [
             {
-              "key_code": "f15",
+              "key_code": "f13",
               "repeat": true
             }
           ],
@@ -1809,8 +1812,11 @@
           },
           "to": [
             {
-              "key_code": "f13",
-              "repeat": true
+              "key_code": "j",
+              "repeat": true,
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -3240,15 +3246,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "k",
-              "modifiers": [
-                "left_alt"
-              ],
-              "repeat": true
-            }
-          ],
           "type": "basic"
         },
         {
@@ -3267,15 +3264,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "j",
-              "modifiers": [
-                "left_alt"
-              ],
-              "repeat": true
-            }
-          ],
           "type": "basic"
         },
         {
