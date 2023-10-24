@@ -72,7 +72,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -191,7 +191,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -310,7 +310,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -429,7 +429,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -516,7 +516,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -601,7 +601,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -686,7 +686,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -782,7 +782,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -880,7 +880,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -969,7 +969,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -1061,7 +1061,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -1157,7 +1157,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -1254,7 +1254,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
@@ -1351,7 +1351,7 @@
               }
             ],
             "simultaneous_options": {
-              "key_down_order": "strict",
+              "key_down_order": "insensitive",
               "key_up_order": "strict_inverse",
               "to_after_key_up": [
                 {
