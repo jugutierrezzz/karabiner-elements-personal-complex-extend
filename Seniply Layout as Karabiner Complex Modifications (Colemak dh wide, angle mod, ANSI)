@@ -1178,7 +1178,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "fast_forwad"
+              "key_code": "fast_forward"
             }
           ],
           "type": "basic"
