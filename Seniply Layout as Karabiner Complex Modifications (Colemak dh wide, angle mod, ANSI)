@@ -1,8 +1,8 @@
 {
-  "title": "Full Seniply Layout as Karabiner Complex Modifications (Colemak dh wide, angle mod, ANSI)",
+  "title": "Seniply Layout as Karabiner Complex Modifications (Colemak dh wide, angle mod, ANSI)",
   "rules": [
     {
-      "description": "Numbers Extend (Simultaneous)",
+      "description": "Numbers (Simultaneous)",
       "manipulators": [
         {
           "from": {
@@ -1006,7 +1006,7 @@
       ]
     },
     {
-      "description": "Function Extend (Simultaneous)",
+      "description": "Function (Simultaneous)",
       "manipulators": [
         {
           "from": {
@@ -1787,11 +1787,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "tab"
-            }
-          ],
           "type": "basic"
         },
         {
@@ -2040,7 +2035,7 @@
       ]
     },
     {
-      "description": "Navigation Extend",
+      "description": "Extend",
       "manipulators": [
         {
           "from": {
@@ -2708,12 +2703,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "mission_control",
-              "repeat": true
-            }
-          ],
           "type": "basic"
         },
         {
@@ -2818,7 +2807,8 @@
           },
           "to": [
             {
-              "key_code": "caps_lock"
+              "repeat": true,
+              "key_code": "escape"
             }
           ],
           "type": "basic"
@@ -3067,17 +3057,12 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "escape"
-            }
-          ],
           "type": "basic"
         }
       ]
     },
     {
-      "description": "Symbols Extend",
+      "description": "Symbols",
       "manipulators": [
         {
           "from": {
@@ -3264,7 +3249,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "caps_lock"
+            }
+          ]
         },
         {
           "conditions": [
