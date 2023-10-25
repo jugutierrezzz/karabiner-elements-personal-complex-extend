@@ -1153,11 +1153,8 @@
           },
           "to": [
             {
-              "key_code": "k",
               "repeat": true,
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "f14"
             }
           ],
           "type": "basic"
@@ -1180,8 +1177,8 @@
           },
           "to": [
             {
-              "key_code": "volume_decrement",
-              "modifiers": []
+              "repeat": true,
+              "key_code": "fast_forwad"
             }
           ],
           "type": "basic"
@@ -1204,8 +1201,8 @@
           },
           "to": [
             {
-              "key_code": "mute",
-              "modifiers": []
+              "repeat": true,
+              "key_code": "rewind"
             }
           ],
           "type": "basic"
@@ -1255,7 +1252,7 @@
           },
           "to": [
             {
-              "key_code": "volume_increment",
+              "key_code": "play_or_pause",
               "modifiers": []
             }
           ],
@@ -1398,7 +1395,7 @@
           },
           "to": [
             {
-              "key_code": "rewind",
+              "key_code": "display_brightness_increment",
               "modifiers": [],
               "repeat": true
             }
@@ -1547,7 +1544,7 @@
           },
           "to": [
             {
-              "key_code": "play_or_pause",
+              "key_code": "volume_decrement",
               "modifiers": [],
               "repeat": true
             }
@@ -1572,7 +1569,7 @@
           },
           "to": [
             {
-              "key_code": "fast_forwad",
+              "key_code": "volume_increment",
               "modifiers": [],
               "repeat": true
             }
@@ -1595,12 +1592,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "key_code": "display_brightness_increment",
-              "repeat": true
-            }
-          ],
           "type": "basic"
         },
         {
@@ -1621,7 +1612,7 @@
           },
           "to": [
             {
-              "key_code": "display_brightness_decrement",
+              "key_code": "mute",
               "repeat": true
             }
           ],
@@ -1787,7 +1778,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "display_brightness_decrement"
+            }
+          ]
         },
         {
           "conditions": [
@@ -1807,11 +1804,8 @@
           },
           "to": [
             {
-              "key_code": "j",
               "repeat": true,
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "f15"
             }
           ],
           "type": "basic"
