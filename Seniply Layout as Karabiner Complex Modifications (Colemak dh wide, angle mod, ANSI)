@@ -2129,7 +2129,7 @@
             }
           ],
           "from": {
-            "key_code": "i",
+            "key_code": "l",
             "modifiers": {
               "optional": [
                 "any"
@@ -2152,7 +2152,7 @@
             }
           ],
           "from": {
-            "key_code": "l",
+            "key_code": "semicolon",
             "modifiers": {
               "optional": [
                 "any"
@@ -2175,7 +2175,7 @@
             }
           ],
           "from": {
-            "key_code": "semicolon",
+            "key_code": "i",
             "modifiers": {
               "optional": [
                 "any"
@@ -2184,7 +2184,7 @@
           },
           "to": [
             {
-              "key_code": "delete_forward"
+              "key_code": "delete_or_backspace"
             }
           ],
           "type": "basic"
@@ -2338,7 +2338,7 @@
           },
           "to": [
             {
-              "key_code": "page_down"
+              "key_code": "tab"
             }
           ],
           "type": "basic"
@@ -2361,7 +2361,10 @@
           },
           "to": [
             {
-              "key_code": "page_up"
+              "key_code": "1",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -2384,7 +2387,10 @@
           },
           "to": [
             {
-              "key_code": "home"
+              "key_code": "j",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -2407,7 +2413,7 @@
           },
           "to": [
             {
-              "key_code": "end"
+              "key_code": "delete_forward"
             }
           ],
           "type": "basic"
@@ -2691,7 +2697,7 @@
           },
           "to": [
             {
-              "key_code": "tab",
+              "key_code": "page_down",
               "repeat": true
             }
           ],
@@ -2717,10 +2723,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "j",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "end"
             }
           ]
         },
@@ -2784,7 +2787,7 @@
           },
           "to": [
             {
-              "key_code": "delete_or_backspace",
+              "key_code": "home",
               "repeat": true
             }
           ],
@@ -2851,10 +2854,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "1",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "page_up"
             }
           ],
           "type": "basic"
