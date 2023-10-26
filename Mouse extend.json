@@ -8,7 +8,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "j",
             "modifiers": {
               "optional": [
                 "any"
@@ -38,7 +38,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "j",
             "modifiers": {
               "optional": [
                 "any"
@@ -49,6 +49,120 @@
             {
               "mouse_key": {
                 "y": 1536
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "d"
+              },
+              {
+                "key_code": "j"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "strict_inverse",
+              "to_after_key_up": [
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4_scroll",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_notification_message": {
+                    "id": "mouse_keys_mode_v4",
+                    "text": ""
+                  }
+                }
+              ]
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "mouse_keys_mode_v4",
+                "value": 1
+              }
+            },
+
+            {
+              "mouse_key": {
+                "y": 1536
+              }
+            }
+          ],
+          "parameters": {
+            "basic.simultaneous_threshold_milliseconds": 25
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": -32
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4_scroll",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -1536
               }
             }
           ],
@@ -111,7 +225,121 @@
 
             {
               "mouse_key": {
-                "y": 1536
+                "y": -1536
+              }
+            }
+          ],
+          "parameters": {
+            "basic.simultaneous_threshold_milliseconds": 25
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": 32
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4_scroll",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": -1536
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_mode_v4",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "d"
+              },
+              {
+                "key_code": "h"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "strict_inverse",
+              "to_after_key_up": [
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4_scroll",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_notification_message": {
+                    "id": "mouse_keys_mode_v4",
+                    "text": ""
+                  }
+                }
+              ]
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "mouse_keys_mode_v4",
+                "value": 1
+              }
+            },
+          
+            {
+              "mouse_key": {
+                "x": -1536
               }
             }
           ],
@@ -132,7 +360,7 @@
           "to": [
             {
               "mouse_key": {
-                "vertical_wheel": -32
+                "horizontal_wheel": -32
               }
             }
           ],
@@ -162,7 +390,7 @@
           "to": [
             {
               "mouse_key": {
-                "y": -1536
+                "x": 1536
               }
             }
           ],
@@ -222,234 +450,6 @@
                 "value": 1
               }
             },
-
-            {
-              "mouse_key": {
-                "y": -1536
-              }
-            }
-          ],
-          "parameters": {
-            "basic.simultaneous_threshold_milliseconds": 25
-          }
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "horizontal_wheel": 32
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4",
-              "value": 1
-            },
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4_scroll",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "x": -1536
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "d"
-              },
-              {
-                "key_code": "j"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive",
-              "key_up_order": "strict_inverse",
-              "to_after_key_up": [
-                {
-                  "set_variable": {
-                    "name": "mouse_keys_mode_v4",
-                    "value": 0
-                  }
-                },
-                {
-                  "set_variable": {
-                    "name": "mouse_keys_mode_v4_scroll",
-                    "value": 0
-                  }
-                },
-                {
-                  "set_notification_message": {
-                    "id": "mouse_keys_mode_v4",
-                    "text": ""
-                  }
-                }
-              ]
-            },
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "set_variable": {
-                "name": "mouse_keys_mode_v4",
-                "value": 1
-              }
-            },
-          
-            {
-              "mouse_key": {
-                "x": -1536
-              }
-            }
-          ],
-          "parameters": {
-            "basic.simultaneous_threshold_milliseconds": 25
-          }
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "semicolon",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "horizontal_wheel": -32
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4",
-              "value": 1
-            },
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4_scroll",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "semicolon",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "x": 1536
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "mouse_keys_mode_v4",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "d"
-              },
-              {
-                "key_code": "semicolon"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive",
-              "key_up_order": "strict_inverse",
-              "to_after_key_up": [
-                {
-                  "set_variable": {
-                    "name": "mouse_keys_mode_v4",
-                    "value": 0
-                  }
-                },
-                {
-                  "set_variable": {
-                    "name": "mouse_keys_mode_v4_scroll",
-                    "value": 0
-                  }
-                },
-                {
-                  "set_notification_message": {
-                    "id": "mouse_keys_mode_v4",
-                    "text": ""
-                  }
-                }
-              ]
-            },
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "set_variable": {
-                "name": "mouse_keys_mode_v4",
-                "value": 1
-              }
-            },
    
             {
               "mouse_key": {
@@ -464,7 +464,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "m",
+            "key_code": "semicolon",
             "modifiers": {
               "optional": [
                 "any"
@@ -492,7 +492,7 @@
                 "key_code": "d"
               },
               {
-                "key_code": "m"
+                "key_code": "semicolon"
               }
             ],
             "simultaneous_options": {
@@ -816,7 +816,7 @@
           "to": [
             {
               "mouse_key": {
-                "speed_multiplier": 5
+                "speed_multiplier": 6
               }
             }
           ],
@@ -879,7 +879,7 @@
            
             {
               "mouse_key": {
-                "speed_multiplier": 5
+                "speed_multiplier": 6
               }
             }
           ],
