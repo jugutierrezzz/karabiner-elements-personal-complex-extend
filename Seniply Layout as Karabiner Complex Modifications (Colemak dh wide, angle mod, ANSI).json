@@ -2092,7 +2092,7 @@
           },
           "to": [
             {
-              "key_code": "left_arrow"
+              "key_code": "down_arrow"
             }
           ],
           "type": "basic"
@@ -2115,7 +2115,7 @@
           },
           "to": [
             {
-              "key_code": "down_arrow"
+              "key_code": "up_arrow"
             }
           ],
           "type": "basic"
@@ -2138,7 +2138,7 @@
           },
           "to": [
             {
-              "key_code": "up_arrow"
+              "key_code": "right_arrow"
             }
           ],
           "type": "basic"
@@ -2161,7 +2161,7 @@
           },
           "to": [
             {
-              "key_code": "right_arrow"
+              "key_code": "delete_or_backspace"
             }
           ],
           "type": "basic"
@@ -2184,7 +2184,10 @@
           },
           "to": [
             {
-              "key_code": "delete_or_backspace"
+              "key_code": "j",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -2338,7 +2341,7 @@
           },
           "to": [
             {
-              "key_code": "tab"
+              "key_code": "left_arrow"
             }
           ],
           "type": "basic"
@@ -2387,10 +2390,8 @@
           },
           "to": [
             {
-              "key_code": "j",
-              "modifiers": [
-                "left_alt"
-              ]
+              "repeat": true,
+              "key_code": "home"
             }
           ],
           "type": "basic"
@@ -2413,7 +2414,7 @@
           },
           "to": [
             {
-              "key_code": "delete_forward"
+              "key_code": "end"
             }
           ],
           "type": "basic"
@@ -2697,7 +2698,7 @@
           },
           "to": [
             {
-              "key_code": "page_down",
+              "key_code": "delete_forward",
               "repeat": true
             }
           ],
@@ -2723,7 +2724,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "end"
+              "key_code": "page_down"
             }
           ]
         },
@@ -2787,8 +2788,11 @@
           },
           "to": [
             {
-              "key_code": "home",
-              "repeat": true
+              "key_code": "k",
+              "repeat": true,
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -3083,10 +3087,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "k",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "tab"
             }
           ]
         }
