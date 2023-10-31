@@ -1,8 +1,8 @@
 {
-  "title": "Sym Extend",
+  "title": "Nav Extend",
   "rules": [
     {
-      "description": "Sym",
+      "description": "Nav",
       "manipulators": [
         {
           "from": {
@@ -16,7 +16,7 @@
           "to": [
             {
               "set_variable": {
-                "name": "symbols",
+                "name": "navigation",
                 "value": 1
               }
             }
@@ -24,7 +24,7 @@
           "to_after_key_up": [
             {
               "set_variable": {
-                "name": "symbols",
+                "name": "navigation",
                 "value": 0
               }
             }
@@ -34,7 +34,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -58,7 +58,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -82,7 +82,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -106,7 +106,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -130,7 +130,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -154,7 +154,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -178,7 +178,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -202,7 +202,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -229,7 +229,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -256,7 +256,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -283,7 +283,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -307,7 +307,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -334,7 +334,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -361,7 +361,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -388,7 +388,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -415,7 +415,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -431,7 +431,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "3",
+              "key_code": "8",
               "modifiers": [
                 "left_shift"
               ]
@@ -442,7 +442,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -466,7 +466,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -490,7 +490,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -514,7 +514,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -538,7 +538,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -562,7 +562,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -589,7 +589,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -616,7 +616,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -643,7 +643,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -667,7 +667,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -691,7 +691,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -715,7 +715,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -742,7 +742,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -769,7 +769,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -793,7 +793,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -817,7 +817,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -835,7 +835,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -853,7 +853,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -871,7 +871,7 @@
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
@@ -884,12 +884,18 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "spacebar"
+            }
+          ]
         },
         {
           "conditions": [
             {
-              "name": "symbols",
+              "name": "navigation",
               "type": "variable_if",
               "value": 1
             }
