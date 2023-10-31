@@ -431,7 +431,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "3",
+              "key_code": "8",
               "modifiers": [
                 "left_shift"
               ]
@@ -884,7 +884,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "spacebar"
+            }
+          ]
         },
         {
           "conditions": [
