@@ -815,24 +815,6 @@
             }
           ],
           "from": {
-            "key_code": "left_alt",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "type": "basic"
-        },
-        {
-          "conditions": [
-            {
-              "name": "function",
-              "type": "variable_if",
-              "value": 1
-            }
-          ],
-          "from": {
             "key_code": "right_alt",
             "modifiers": {
               "optional": [
@@ -857,7 +839,7 @@
             }
           ],
           "from": {
-            "key_code": "right_control",
+            "key_code": "launchpad",
             "modifiers": {
               "optional": [
                 "any"
@@ -875,7 +857,7 @@
             }
           ],
           "from": {
-            "key_code": "spacebar",
+            "key_code": "launchpad",
             "modifiers": {
               "optional": [
                 "any"
@@ -893,7 +875,25 @@
             }
           ],
           "from": {
-            "key_code": "left_gui",
+            "key_code": "launchpad",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "name": "function",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "launchpad",
             "modifiers": {
               "optional": [
                 "any"
