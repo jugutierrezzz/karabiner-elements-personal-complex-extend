@@ -58,7 +58,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "9",
+              "key_code": "3",
               "modifiers": [
                 "left_shift",
                 "left_gui"
@@ -143,7 +143,13 @@
           "to": [
             {
               "repeat": true,
-              "apple_vendor_keyboard_key_code": "expose_desktop"
+              "key_code": "d",
+              "modifiers": [
+                "left_control",
+                "left_shift",
+                "left_gui",
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -384,7 +390,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "illumination_decrement",
+              "key_code": "display_brightness_decrement",
               "modifiers": [
                 "left_alt",
                 "left_shift"
@@ -412,7 +418,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "illumination_increment",
+              "key_code": "display_brightness_increment",
               "modifiers": [
                 "left_alt",
                 "left_shift"
@@ -483,7 +489,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "7"
+              "key_code": "rewind"
             }
           ],
           "type": "basic"
@@ -507,7 +513,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "8"
+              "key_code": "caps_lock"
             }
           ],
           "type": "basic"
@@ -531,7 +537,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "9"
+              "key_code": "fast_forward"
             }
           ],
           "type": "basic"
@@ -552,12 +558,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "0"
-            }
-          ],
           "type": "basic"
         },
         {
@@ -579,9 +579,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "equal_sign",
+              "key_code": "spacebar",
               "modifiers": [
-                "left_shift"
+                "left_control"
               ]
             }
           ],
@@ -606,10 +606,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "9",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "volume_decrement",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -633,10 +631,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "open_bracket",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "volume_increment",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -660,7 +656,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "open_bracket"
+              "key_code": "mute"
             }
           ],
           "type": "basic"
@@ -685,7 +681,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "hyphen"
+              "key_code": "play_or_pause"
             }
           ]
         },
@@ -705,13 +701,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "equal_sign"
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -732,8 +722,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "0",
+              "key_code": "volume_decrement",
               "modifiers": [
+                "left_alt",
                 "left_shift"
               ]
             }
@@ -760,8 +751,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "close_bracket",
+              "key_code": "volume_increment",
               "modifiers": [
+                "left_alt",
                 "left_shift"
               ]
             }
@@ -783,12 +775,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "close_bracket"
-            }
-          ],
           "type": "basic"
         },
         {
@@ -807,13 +793,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "slash"
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -860,7 +840,7 @@
             }
           ],
           "from": {
-            "key_code": "right_gui",
+            "key_code": "launchpad",
             "modifiers": {
               "optional": [
                 "any"
@@ -885,13 +865,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "spacebar"
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
