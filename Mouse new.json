@@ -8,7 +8,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "e",
             "modifiers": {
               "optional": [
                 "any"
@@ -38,7 +38,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "e",
             "modifiers": {
               "optional": [
                 "any"
@@ -65,10 +65,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "j"
+                "key_code": "e"
               }
             ],
             "simultaneous_options": {
@@ -122,7 +122,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "u",
             "modifiers": {
               "optional": [
                 "any"
@@ -152,7 +152,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "u",
             "modifiers": {
               "optional": [
                 "any"
@@ -179,10 +179,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "k"
+                "key_code": "u"
               }
             ],
             "simultaneous_options": {
@@ -236,7 +236,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "n",
             "modifiers": {
               "optional": [
                 "any"
@@ -266,7 +266,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "n",
             "modifiers": {
               "optional": [
                 "any"
@@ -293,10 +293,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "h"
+                "key_code": "n"
               }
             ],
             "simultaneous_options": {
@@ -350,7 +350,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "i",
             "modifiers": {
               "optional": [
                 "any"
@@ -380,7 +380,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "i",
             "modifiers": {
               "optional": [
                 "any"
@@ -407,10 +407,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "l"
+                "key_code": "i"
               }
             ],
             "simultaneous_options": {
@@ -489,7 +489,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "semicolon"
@@ -544,7 +544,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "t",
+            "key_code": "j",
             "modifiers": {
               "optional": [
                 "any"
@@ -569,10 +569,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "t"
+                "key_code": "j"
               }
             ],
             "simultaneous_options": {
@@ -649,7 +649,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "spacebar"
@@ -704,7 +704,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "s",
+            "key_code": "r",
             "modifiers": {
               "optional": [
                 "any"
@@ -740,10 +740,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "s"
+                "key_code": "r"
               }
             ],
             "simultaneous_options": {
@@ -806,7 +806,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f",
+            "key_code": "t",
             "modifiers": {
               "optional": [
                 "any"
@@ -816,7 +816,7 @@
           "to": [
             {
               "mouse_key": {
-                "speed_multiplier": 6
+                "speed_multiplier": 7
               }
             }
           ],
@@ -833,10 +833,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "f"
+                "key_code": "t"
               }
             ],
             "simultaneous_options": {
@@ -879,7 +879,7 @@
            
             {
               "mouse_key": {
-                "speed_multiplier": 6
+                "speed_multiplier": 7
               }
             }
           ],
@@ -917,7 +917,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "a"
@@ -974,7 +974,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "u",
+            "key_code": "b",
             "modifiers": {
               "optional": [
                 "any"
@@ -1004,10 +1004,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
-                "key_code": "u"
+                "key_code": "b"
               }
             ],
             "simultaneous_options": {
@@ -1095,7 +1095,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "o"
@@ -1187,7 +1187,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "q"
@@ -1279,7 +1279,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "d"
+                "key_code": "s"
               },
               {
                 "key_code": "p"
