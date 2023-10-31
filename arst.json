@@ -1,1 +1,10 @@
-
+ {
+        "not_from": true,
+        "label": "Sleep (IOKit Power Management Sleep System)",
+        "data": [
+            {
+                "software_function": {
+                    "iokit_power_management_sleep_system": {}
+                }
+            }
+        ]
