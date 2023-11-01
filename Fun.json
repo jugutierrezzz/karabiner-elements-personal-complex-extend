@@ -460,7 +460,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f11"
+              "key_code": "f20"
             }
           ],
           "type": "basic"
@@ -484,7 +484,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f12"
+              "key_code": "f19"
             }
           ],
           "type": "basic"
@@ -508,7 +508,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f13"
+              "key_code": "f18"
             }
           ],
           "type": "basic"
@@ -532,7 +532,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f14"
+              "key_code": "f17"
             }
           ],
           "type": "basic"
@@ -556,7 +556,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f15"
+              "key_code": "f16"
             }
           ],
           "type": "basic"
@@ -580,7 +580,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f6",
+              "key_code": "f15",
               "modifiers": []
             }
           ],
@@ -605,7 +605,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f7",
+              "key_code": "f14",
               "modifiers": []
             }
           ],
@@ -630,7 +630,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f8",
+              "key_code": "f13",
               "modifiers": []
             }
           ],
@@ -655,7 +655,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f9"
+              "key_code": "f12"
             }
           ],
           "type": "basic"
@@ -680,7 +680,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f10"
+              "key_code": "f11"
             }
           ]
         },
@@ -704,7 +704,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f1"
+              "key_code": "f10"
             }
           ]
         },
@@ -727,7 +727,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f2",
+              "key_code": "f8",
               "modifiers": []
             }
           ],
@@ -753,7 +753,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f3",
+              "key_code": "f7",
               "modifiers": []
             }
           ]
@@ -777,7 +777,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f4"
+              "key_code": "f6"
             }
           ],
           "type": "basic"
@@ -802,7 +802,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f5"
+              "key_code": "f4"
             }
           ]
         },
