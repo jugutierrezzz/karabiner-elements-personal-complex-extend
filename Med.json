@@ -463,6 +463,7 @@
           },
           "to": [
             {
+              "repeat": false,
               "software_function": {
                 "iokit_power_management_sleep_system": {}
               }
