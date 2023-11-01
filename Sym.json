@@ -195,7 +195,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "quote"
+              "key_code": "quote",
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
@@ -219,9 +222,7 @@
             {
               "repeat": true,
               "key_code": "quote",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -245,7 +246,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "semicolon",
+              "key_code": "hyphen",
               "modifiers": [
                 "left_shift"
               ]
@@ -272,7 +273,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "hyphen",
+              "key_code": "semicolon",
               "modifiers": [
                 "left_shift"
               ]
@@ -323,10 +324,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "2",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "slash",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -810,7 +809,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash"
+              "key_code": "2",
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
