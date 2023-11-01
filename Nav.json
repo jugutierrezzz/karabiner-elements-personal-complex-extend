@@ -187,10 +187,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "a",
-              "modifiers": [
-                "left_gui"
-              ]
+              "key_code": "tab",
+              "modifiers": []
             }
           ]
         },
@@ -237,10 +235,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "down_arrow",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -264,10 +260,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "delete_forward",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "up_arrow",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -306,15 +300,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "z",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -333,15 +318,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "x",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -360,15 +336,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "c",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -415,15 +382,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "v",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -442,15 +400,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -474,7 +423,7 @@
               "repeat": true,
               "key_code": "left_arrow",
               "modifiers": [
-                "left_alt"
+                "left_gui"
               ]
             }
           ],
@@ -499,9 +448,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow",
+              "key_code": "delete_or_backspace",
               "modifiers": [
-                "left_alt"
+                "left_gui"
               ]
             }
           ],
@@ -553,7 +502,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "up_arrow",
+              "key_code": "delete_forward",
               "modifiers": [
                 "left_gui"
               ]
@@ -577,13 +526,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "left_arrow",
-              "modifiers": []
-            }
-          ],
           "type": "basic"
         },
         {
@@ -605,8 +547,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "down_arrow",
-              "modifiers": []
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -630,8 +574,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "up_arrow",
-              "modifiers": []
+              "key_code": "delete_or_backspace",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -655,7 +601,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow"
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -680,7 +629,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "tab"
+              "key_code": "delete_forward",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ]
         },
@@ -700,16 +652,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "up_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -727,14 +670,13 @@
               ]
             }
           },
+          "type": "basic",
           "to": [
             {
               "repeat": true,
-              "key_code": "page_down",
-              "modifiers": []
+              "key_code": "page_up"
             }
-          ],
-          "type": "basic"
+          ]
         },
         {
           "conditions": [
@@ -756,8 +698,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "page_up",
-              "modifiers": []
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_gui"
+              ]
             }
           ]
         },
@@ -777,15 +721,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "down_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -909,7 +844,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "page_down"
+            }
+          ]
         }
       ]
     }
