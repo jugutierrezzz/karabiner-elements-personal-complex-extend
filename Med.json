@@ -55,16 +55,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "3",
-              "modifiers": [
-                "left_shift",
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -86,11 +76,12 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "3",
+              "key_code": "l",
               "modifiers": [
                 "left_shift",
                 "left_gui",
-                "left_control"
+                "left_control",
+                "left_alt"
               ]
             }
           ],
@@ -112,16 +103,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "spacebar",
-              "modifiers": [
-                "left_control",
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -188,7 +169,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "mute"
+            }
+          ]
         },
         {
           "conditions": [
@@ -210,11 +197,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "4",
-              "modifiers": [
-                "left_shift",
-                "left_gui"
-              ]
+              "key_code": "display_brightness_decrement",
+              "modifiers": []
             }
           ]
         },
@@ -237,36 +221,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "4",
-              "modifiers": [
-                "left_control",
-                "left_shift",
-                "left_gui"
-              ]
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "conditions": [
-            {
-              "name": "media",
-              "type": "variable_if",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "s",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "display_brightness_decrement",
+              "key_code": "volume_decrement",
               "modifiers": []
             }
           ],
@@ -281,7 +236,7 @@
             }
           ],
           "from": {
-            "key_code": "t",
+            "key_code": "s",
             "modifiers": {
               "optional": [
                 "any"
@@ -306,7 +261,7 @@
             }
           ],
           "from": {
-            "key_code": "g",
+            "key_code": "t",
             "modifiers": {
               "optional": [
                 "any"
@@ -316,13 +271,28 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "5",
-              "modifiers": [
-                "left_shift",
-                "left_gui"
-              ]
+              "key_code": "volume_increment",
+              "modifiers": []
             }
           ],
+          "type": "basic"
+        },
+        {
+          "conditions": [
+            {
+              "name": "media",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
           "type": "basic"
         },
         {
@@ -377,16 +347,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "display_brightness_decrement",
-              "modifiers": [
-                "left_alt",
-                "left_shift"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -405,16 +365,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "display_brightness_increment",
-              "modifiers": [
-                "left_alt",
-                "left_shift"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -472,7 +422,12 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "rewind"
+              "key_code": "4",
+              "modifiers": [
+                "left_control",
+                "left_shift",
+                "left_gui"
+              ]
             }
           ],
           "type": "basic"
@@ -496,7 +451,11 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "caps_lock"
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_control",
+                "left_gui"
+              ]
             }
           ],
           "type": "basic"
@@ -520,7 +479,12 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "fastforward"
+              "key_code": "3",
+              "modifiers": [
+                "left_control",
+                "left_shift",
+                "left_gui"
+              ]
             }
           ],
           "type": "basic"
@@ -545,9 +509,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "q",
+              "key_code": "5",
               "modifiers": [
-                "left_control",
+                "left_shift",
                 "left_gui"
               ]
             }
@@ -569,15 +533,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "spacebar",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -599,7 +554,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "volume_decrement",
+              "key_code": "rewind",
               "modifiers": []
             }
           ],
@@ -624,7 +579,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "volume_increment",
+              "key_code": "play_or_pause",
               "modifiers": []
             }
           ],
@@ -649,7 +604,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "mute"
+              "key_code": "fastforward"
             }
           ],
           "type": "basic"
@@ -674,7 +629,11 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "play_or_pause"
+              "key_code": "q",
+              "modifiers": [
+                "left_control",
+                "left_gui"
+              ]
             }
           ]
         },
@@ -712,16 +671,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "volume_decrement",
-              "modifiers": [
-                "left_alt",
-                "left_shift"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -740,17 +689,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "volume_increment",
-              "modifiers": [
-                "left_alt",
-                "left_shift"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -882,3 +821,4 @@
     }
   ]
 }
+
