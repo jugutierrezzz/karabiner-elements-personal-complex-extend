@@ -68,10 +68,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "g",
+              "key_code": "delete_or_backspace",
               "modifiers": [
-                "left_gui",
-                "left_shift"
+                "left_alt"
               ]
             }
           ],
@@ -123,9 +122,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "g",
+              "key_code": "delete_forward",
               "modifiers": [
-                "left_gui"
+                "left_alt"
               ]
             }
           ],
@@ -165,7 +164,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "return_or_enter",
+              "modifiers": [
+                "left_gui"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -214,9 +222,7 @@
             {
               "repeat": true,
               "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_alt"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -266,9 +272,7 @@
             {
               "repeat": true,
               "key_code": "delete_forward",
-              "modifiers": [
-                "left_alt"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -334,7 +338,17 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "g",
+              "modifiers": [
+                "left_gui",
+                "left_shift"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -370,14 +384,16 @@
               ]
             }
           },
+          "type": "basic",
           "to": [
             {
               "repeat": true,
-              "key_code": "delete_or_backspace",
-              "modifiers": []
+              "key_code": "g",
+              "modifiers": [
+                "left_gui"
+              ]
             }
-          ],
-          "type": "basic"
+          ]
         },
         {
           "conditions": [
@@ -395,16 +411,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "delete_or_backspace",
-              "modifiers": [
-                "fn"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -453,7 +460,9 @@
             {
               "repeat": true,
               "key_code": "left_arrow",
-              "modifiers": []
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -503,7 +512,9 @@
             {
               "repeat": true,
               "key_code": "right_arrow",
-              "modifiers": []
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -582,9 +593,7 @@
             {
               "repeat": true,
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -634,9 +643,7 @@
             {
               "repeat": true,
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -730,7 +737,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "o",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -811,7 +827,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "tab",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -829,7 +854,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "tab",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
