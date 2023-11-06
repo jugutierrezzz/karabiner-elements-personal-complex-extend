@@ -1,5 +1,3 @@
-# karabiner-elements
-
 Order:
 
 Mouse
