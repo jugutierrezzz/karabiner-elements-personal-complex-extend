@@ -285,7 +285,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f3"
+              "key_code": "f13"
             }
           ],
           "type": "basic"
