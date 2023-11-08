@@ -1,7 +1,7 @@
 Order:
 
 Mouse
-Nav
 Fun
+Nav
 Med
 Sym
