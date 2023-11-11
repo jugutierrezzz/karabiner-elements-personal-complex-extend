@@ -47,7 +47,17 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "g",
+              "modifiers": [
+                "left_gui",
+                "left_shift"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -146,7 +156,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "g",
+              "modifiers": [
+                "left_gui"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -338,17 +357,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "g",
-              "modifiers": [
-                "left_gui",
-                "left_shift"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
@@ -384,16 +393,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "g",
-              "modifiers": [
-                "left_gui"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
