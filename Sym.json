@@ -916,7 +916,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "tab",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
         }
       ]
     }
