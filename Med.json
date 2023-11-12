@@ -355,7 +355,17 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "volume_decrement",
+              "modifiers": [
+                "left_alt",
+                "left_shift"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
