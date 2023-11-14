@@ -144,7 +144,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "f16"
+            }
+          ]
         },
         {
           "conditions": [
@@ -402,7 +408,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "f17"
+            }
+          ]
         },
         {
           "conditions": [
