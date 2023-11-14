@@ -113,7 +113,11 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "volume_increment"
+              "key_code": "volume_increment",
+              "modifiers": [
+                "left_alt",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -255,7 +259,10 @@
             {
               "repeat": true,
               "key_code": "volume_decrement",
-              "modifiers": []
+              "modifiers": [
+                "left_alt",
+                "left_shift"
+              ]
             }
           ],
           "type": "basic"
@@ -355,17 +362,7 @@
               ]
             }
           },
-          "type": "basic",
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "volume_decrement",
-              "modifiers": [
-                "left_alt",
-                "left_shift"
-              ]
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
