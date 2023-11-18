@@ -550,12 +550,7 @@
               ]
             }
           ],
-          "type": "basic",
-          "to_if_held_down": [
-            {
-              "repeat": true
-            }
-          ]
+          "type": "basic"
         },
         {
           "conditions": [
