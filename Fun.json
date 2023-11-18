@@ -517,7 +517,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "1",
+              "key_code": "slash",
               "modifiers": [
                 "left_shift"
               ]
@@ -544,13 +544,18 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
+              "key_code": "1",
               "modifiers": [
                 "left_shift"
               ]
             }
           ],
-          "type": "basic"
+          "type": "basic",
+          "to_if_held_down": [
+            {
+              "repeat": true
+            }
+          ]
         },
         {
           "conditions": [
