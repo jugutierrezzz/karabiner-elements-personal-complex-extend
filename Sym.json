@@ -1,3 +1,4 @@
+
 {
   "title": "Sym Extend",
   "rules": [
@@ -102,9 +103,7 @@
             {
               "repeat": true,
               "key_code": "semicolon",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -327,8 +326,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
-              "modifiers": []
+              "key_code": "2",
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ],
           "type": "basic"
@@ -815,10 +816,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "2",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "slash",
+              "modifiers": []
             }
           ]
         },
