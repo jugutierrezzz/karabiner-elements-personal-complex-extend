@@ -462,9 +462,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "1",
+              "key_code": "9",
               "modifiers": [
-                "left_alt"
+                "left_shift"
               ]
             }
           ],
@@ -489,10 +489,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
+              "key_code": "0",
               "modifiers": [
-                "left_shift",
-                "left_alt"
+                "left_shift"
               ]
             }
           ],
@@ -517,7 +516,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
+              "key_code": "open_bracket",
               "modifiers": [
                 "left_shift"
               ]
@@ -544,7 +543,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "1",
+              "key_code": "close_bracket",
               "modifiers": [
                 "left_shift"
               ]
@@ -697,10 +696,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "5",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": []
             }
           ]
         },
@@ -723,10 +720,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "7",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "open_bracket",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -751,10 +746,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "6",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "close_bracket",
+              "modifiers": []
             }
           ]
         },
