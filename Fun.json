@@ -172,7 +172,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f12"
+              "key_code": "f14"
             }
           ]
         },
@@ -315,7 +315,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f14"
+              "key_code": "f12"
             }
           ],
           "type": "basic"
