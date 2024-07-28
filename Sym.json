@@ -171,7 +171,7 @@
             }
           ],
           "from": {
-            "key_code": "z",
+            "key_code": "left_shift",
             "modifiers": {
               "optional": [
                 "any"
@@ -322,7 +322,7 @@
             }
           ],
           "from": {
-            "key_code": "left_shift",
+            "key_code": "z",
             "modifiers": {
               "optional": [
                 "any"
