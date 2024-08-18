@@ -332,7 +332,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "grave_accent_and_tilde",
+              "key_code": "backslash",
               "modifiers": []
             }
           ],
@@ -358,9 +358,7 @@
             {
               "repeat": true,
               "key_code": "grave_accent_and_tilde",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -411,8 +409,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
-              "modifiers": []
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ],
           "type": "basic"
@@ -436,7 +436,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "backslash",
+              "key_code": "slash",
               "modifiers": []
             }
           ],
