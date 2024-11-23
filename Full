@@ -3,7 +3,7 @@
     "profiles": [
         {
             "complex_modifications": {
-                "parameters": { "basic.simultaneous_threshold_milliseconds": 60 },
+                "parameters": { "basic.simultaneous_threshold_milliseconds": 10 },
                 "rules": [
                     {
                         "description": "Med",
@@ -3894,6 +3894,7 @@
                     "manipulate_caps_lock_led": false
                 },
                 {
+                    "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
                         "is_keyboard": true,
                         "product_id": 666,
