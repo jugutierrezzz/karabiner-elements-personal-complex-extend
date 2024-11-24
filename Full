@@ -3,10 +3,6 @@
     "profiles": [
         {
             "complex_modifications": {
-                "parameters": {
-                    "basic.to_delayed_action_delay_milliseconds": 100,
-                    "basic.to_if_held_down_threshold_milliseconds": 100
-                },
                 "rules": [
                     {
                         "description": "Med",
@@ -3897,7 +3893,6 @@
                     "manipulate_caps_lock_led": false
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
                         "is_keyboard": true,
                         "product_id": 666,
