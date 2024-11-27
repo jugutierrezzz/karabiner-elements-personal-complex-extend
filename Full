@@ -688,8 +688,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "comma",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "slash",
+                                        "modifiers": ["left_shift", "left_alt"],
                                         "repeat": true
                                     }
                                 ],
@@ -709,7 +709,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "period",
+                                        "key_code": "slash",
                                         "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
@@ -730,8 +730,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign",
-                                        "modifiers": [],
+                                        "key_code": "semicolon",
+                                        "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -751,7 +751,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
+                                        "key_code": "semicolon",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -772,8 +772,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "slash",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -794,7 +794,7 @@
                                 "to": [
                                     {
                                         "key_code": "quote",
-                                        "modifiers": ["left_shift"],
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -918,8 +918,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash",
-                                        "modifiers": [],
+                                        "key_code": "1",
+                                        "modifiers": ["left_alt"],
                                         "repeat": true
                                     }
                                 ],
@@ -981,8 +981,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "open_bracket",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -1002,7 +1002,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash",
+                                        "key_code": "close_bracket",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1023,8 +1023,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1",
-                                        "modifiers": ["left_alt"],
+                                        "key_code": "comma",
+                                        "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -1044,7 +1044,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "semicolon",
+                                        "key_code": "hyphen",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1065,8 +1065,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "semicolon",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "equal_sign",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -1086,8 +1086,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash",
-                                        "modifiers": ["left_alt", "left_shift"],
+                                        "key_code": "equal_sign",
+                                        "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -1107,7 +1107,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash",
+                                        "key_code": "period",
                                         "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
@@ -1231,7 +1231,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "quote",
+                                        "key_code": "backslash",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1253,7 +1253,7 @@
                                 "to": [
                                     {
                                         "key_code": "open_bracket",
-                                        "modifiers": [],
+                                        "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -1274,7 +1274,7 @@
                                 "to": [
                                     {
                                         "key_code": "close_bracket",
-                                        "modifiers": [],
+                                        "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -1294,7 +1294,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
+                                        "key_code": "6",
                                         "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
@@ -1315,7 +1315,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "close_bracket",
+                                        "key_code": "hyphen",
                                         "modifiers": ["left_shift"],
                                         "repeat": true
                                     }
@@ -4243,7 +4243,8 @@
                 }
             ],
             "name": "New profile",
-            "selected": true
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
     ]
 }
