@@ -78,10 +78,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "slash",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "quote",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -158,7 +156,9 @@
             {
               "repeat": true,
               "key_code": "slash",
-              "modifiers": []
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ],
           "type": "basic"
@@ -183,8 +183,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "quote",
-              "modifiers": []
+              "key_code": "hyphen",
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
@@ -383,10 +385,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "backslash",
-              "modifiers": [
-                "left_shift"
-              ]
+              "key_code": "open_bracket",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -410,7 +410,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "open_bracket",
+              "key_code": "close_bracket",
               "modifiers": []
             }
           ],
@@ -435,7 +435,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "close_bracket",
+              "key_code": "slash",
               "modifiers": []
             }
           ],
@@ -821,7 +821,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "hyphen",
+              "key_code": "backslash",
               "modifiers": [
                 "left_shift"
               ]
