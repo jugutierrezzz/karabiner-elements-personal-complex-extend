@@ -59,9 +59,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "3",
+              "key_code": "4",
               "modifiers": [
-                "left_control",
                 "left_shift",
                 "left_gui"
               ]
@@ -308,7 +307,17 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_gui",
+                "left_control"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -434,18 +443,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "d",
-              "modifiers": [
-                "left_control",
-                "left_shift",
-                "left_gui",
-                "left_alt"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -464,16 +461,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "spacebar",
-              "modifiers": [
-                "left_control",
-                "left_gui"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -492,18 +479,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "l",
-              "modifiers": [
-                "left_control",
-                "left_shift",
-                "left_gui",
-                "left_alt"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -540,7 +515,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "mute"
+            }
+          ]
         },
         {
           "conditions": [
@@ -561,8 +542,13 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "rewind",
-              "modifiers": []
+              "key_code": "d",
+              "modifiers": [
+                "left_gui",
+                "left_control",
+                "left_alt",
+                "left_shift"
+              ]
             }
           ],
           "type": "basic"
@@ -586,8 +572,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "play_or_pause",
-              "modifiers": []
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -611,7 +599,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "fastforward"
+              "key_code": "launchpad"
             }
           ],
           "type": "basic"
