@@ -52,8 +52,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3",
-                                        "modifiers": ["left_control", "left_shift", "left_gui"],
+                                        "key_code": "4",
+                                        "modifiers": ["left_shift", "left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -246,6 +246,13 @@
                                     "key_code": "g",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": ["left_gui", "left_control"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -344,13 +351,6 @@
                                     "key_code": "l",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "d",
-                                        "modifiers": ["left_control", "left_shift", "left_gui", "left_alt"],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -365,13 +365,6 @@
                                     "key_code": "u",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": ["left_control", "left_gui"],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -386,13 +379,6 @@
                                     "key_code": "y",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "l",
-                                        "modifiers": ["left_control", "left_shift", "left_gui", "left_alt"],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -421,6 +407,12 @@
                                     "key_code": "m",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "mute",
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -437,8 +429,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "rewind",
-                                        "modifiers": [],
+                                        "key_code": "d",
+                                        "modifiers": ["left_gui", "left_control", "left_alt", "left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -458,8 +450,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "play_or_pause",
-                                        "modifiers": [],
+                                        "key_code": "spacebar",
+                                        "modifiers": ["left_alt"],
                                         "repeat": true
                                     }
                                 ],
@@ -479,7 +471,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "fastforward",
+                                        "key_code": "launchpad",
                                         "repeat": true
                                     }
                                 ],
@@ -1483,7 +1475,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f4",
+                                        "key_code": "f1",
                                         "repeat": true
                                     }
                                 ],
@@ -1503,7 +1495,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f3",
+                                        "key_code": "f2",
                                         "repeat": true
                                     }
                                 ],
@@ -1523,7 +1515,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f2",
+                                        "key_code": "f3",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1544,7 +1536,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f1",
+                                        "key_code": "f4",
                                         "repeat": true
                                     }
                                 ],
@@ -1564,7 +1556,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16",
+                                        "key_code": "f5",
                                         "repeat": true
                                     }
                                 ],
@@ -1584,7 +1576,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f14",
+                                        "key_code": "f6",
                                         "repeat": true
                                     }
                                 ],
@@ -1604,7 +1596,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f8",
+                                        "key_code": "f7",
                                         "repeat": true
                                     }
                                 ],
@@ -1624,7 +1616,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f7",
+                                        "key_code": "f8",
                                         "repeat": true
                                     }
                                 ],
@@ -1644,7 +1636,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f6",
+                                        "key_code": "f9",
                                         "repeat": true
                                     }
                                 ],
@@ -1664,7 +1656,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f5",
+                                        "key_code": "f10",
                                         "repeat": true
                                     }
                                 ],
@@ -1684,7 +1676,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f13",
+                                        "key_code": "f11",
                                         "repeat": true
                                     }
                                 ],
@@ -1724,7 +1716,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f11",
+                                        "key_code": "f13",
                                         "repeat": true
                                     }
                                 ],
@@ -1744,7 +1736,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f10",
+                                        "key_code": "f14",
                                         "repeat": true
                                     }
                                 ],
@@ -1764,7 +1756,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f9",
+                                        "key_code": "f15",
                                         "repeat": true
                                     }
                                 ],
@@ -1784,7 +1776,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17",
+                                        "key_code": "f16",
                                         "repeat": true
                                     }
                                 ],
@@ -1802,13 +1794,6 @@
                                     "key_code": "j",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": [],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -1825,8 +1810,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "f17",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -1846,8 +1831,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "f18",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -1867,7 +1852,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash",
+                                        "key_code": "f19",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1888,7 +1873,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash",
+                                        "key_code": "f20",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -1907,13 +1892,6 @@
                                     "key_code": "m",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": ["left_shift"],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -2010,13 +1988,6 @@
                                     "key_code": "k",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": [],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -2033,7 +2004,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
+                                        "key_code": "f21",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -2054,7 +2025,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "close_bracket",
+                                        "key_code": "f22",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -2075,8 +2046,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4",
-                                        "modifiers": ["left_shift"],
+                                        "key_code": "f23",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -2096,7 +2067,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash",
+                                        "key_code": "f24",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -2115,12 +2086,6 @@
                                     "key_code": "left_alt",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "f15",
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -2137,7 +2102,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
+                                        "key_code": "mission_control",
                                         "repeat": true
                                     }
                                 ],
