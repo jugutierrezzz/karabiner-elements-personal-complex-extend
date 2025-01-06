@@ -443,7 +443,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "rewind"
+            }
+          ]
         },
         {
           "conditions": [
@@ -461,7 +467,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "play_or_pause"
+            }
+          ]
         },
         {
           "conditions": [
@@ -479,7 +491,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "fastforward"
+            }
+          ]
         },
         {
           "conditions": [
