@@ -136,7 +136,17 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "q",
+              "modifiers": [
+                "left_control",
+                "left_gui"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -353,7 +363,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "launchpad"
+            }
+          ]
         },
         {
           "conditions": [
@@ -389,7 +405,19 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "d",
+              "modifiers": [
+                "left_gui",
+                "left_control",
+                "left_shift",
+                "left_alt"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -447,7 +475,11 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "rewind"
+              "key_code": "g",
+              "modifiers": [
+                "left_gui",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -471,7 +503,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "play_or_pause"
+              "key_code": "f",
+              "modifiers": [
+                "left_gui"
+              ]
             }
           ]
         },
@@ -495,7 +530,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "fastforward"
+              "key_code": "g",
+              "modifiers": [
+                "left_gui"
+              ]
             }
           ]
         },
@@ -537,7 +575,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "mute"
+              "key_code": "delete_or_backspace",
+              "modifiers": [
+                "left_gui"
+              ]
             }
           ]
         },
@@ -560,12 +601,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "d",
+              "key_code": "delete_or_backspace",
               "modifiers": [
-                "left_gui",
-                "left_control",
-                "left_alt",
-                "left_shift"
+                "left_alt"
               ]
             }
           ],
@@ -587,15 +625,6 @@
               ]
             }
           },
-          "to": [
-            {
-              "repeat": true,
-              "key_code": "spacebar",
-              "modifiers": [
-                "left_alt"
-              ]
-            }
-          ],
           "type": "basic"
         },
         {
@@ -617,7 +646,10 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "launchpad"
+              "key_code": "delete_forward",
+              "modifiers": [
+                "left_alt"
+              ]
             }
           ],
           "type": "basic"
@@ -642,10 +674,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "q",
+              "key_code": "k",
               "modifiers": [
-                "left_control",
-                "left_gui"
+                "left_control"
               ]
             }
           ]
@@ -684,7 +715,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "delete_or_backspace"
+            }
+          ]
         },
         {
           "conditions": [
@@ -720,7 +757,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "d",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -785,7 +831,7 @@
             }
           ],
           "from": {
-            "key_code": "launchpad",
+            "key_code": "right_gui",
             "modifiers": {
               "optional": [
                 "any"
