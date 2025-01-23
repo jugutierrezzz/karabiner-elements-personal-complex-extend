@@ -113,6 +113,13 @@
                                     "key_code": "p",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "q",
+                                        "modifiers": ["left_control", "left_gui"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -281,6 +288,12 @@
                                     "key_code": "x",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "launchpad",
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -309,6 +322,13 @@
                                     "key_code": "d",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": ["left_gui", "left_control", "left_shift", "left_alt"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -337,6 +357,13 @@
                                     "key_code": "j",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": ["fn"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -353,7 +380,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "rewind",
+                                        "key_code": "g",
+                                        "modifiers": ["left_gui", "left_shift"],
                                         "repeat": true
                                     }
                                 ],
@@ -373,7 +401,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "play_or_pause",
+                                        "key_code": "f",
+                                        "modifiers": ["left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -393,7 +422,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "fastforward",
+                                        "key_code": "g",
+                                        "modifiers": ["left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -411,6 +441,13 @@
                                     "key_code": "escape",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow",
+                                        "modifiers": ["fn"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -427,7 +464,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "mute",
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": ["left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -447,8 +485,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "d",
-                                        "modifiers": ["left_gui", "left_control", "left_alt", "left_shift"],
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": ["left_alt"],
                                         "repeat": true
                                     }
                                 ],
@@ -466,13 +504,6 @@
                                     "key_code": "e",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": ["left_alt"],
-                                        "repeat": true
-                                    }
-                                ],
                                 "type": "basic"
                             },
                             {
@@ -489,7 +520,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "launchpad",
+                                        "key_code": "delete_forward",
+                                        "modifiers": ["left_alt"],
                                         "repeat": true
                                     }
                                 ],
@@ -509,8 +541,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "q",
-                                        "modifiers": ["left_control", "left_gui"],
+                                        "key_code": "k",
+                                        "modifiers": ["left_control"],
                                         "repeat": true
                                     }
                                 ],
@@ -542,6 +574,12 @@
                                     "key_code": "h",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -570,6 +608,13 @@
                                     "key_code": "period",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": ["left_control"],
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -623,7 +668,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "launchpad",
+                                    "key_code": "right_gui",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "type": "basic"
@@ -2205,7 +2250,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2284,7 +2329,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2363,7 +2408,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2442,7 +2487,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2501,7 +2546,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2560,7 +2605,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2619,7 +2664,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2693,7 +2738,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2765,7 +2810,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2824,7 +2869,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2892,7 +2937,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -2968,7 +3013,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -3045,7 +3090,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -3122,7 +3167,7 @@
                                         ]
                                     }
                                 },
-                                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
+                                "parameters": { "basic.simultaneous_threshold_milliseconds": 25 },
                                 "to": [
                                     {
                                         "set_variable": {
@@ -3226,8 +3271,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f",
-                                        "modifiers": ["left_gui"],
+                                        "key_code": "k",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3331,8 +3376,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_or_backspace",
-                                        "modifiers": ["left_alt"],
+                                        "key_code": "h",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3352,7 +3397,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift",
+                                        "key_code": "j",
                                         "modifiers": [],
                                         "repeat": true
                                     }
@@ -3373,8 +3418,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_forward",
-                                        "modifiers": ["left_alt"],
+                                        "key_code": "l",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3506,8 +3551,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
-                                        "modifiers": [],
+                                        "key_code": "up_arrow",
+                                        "modifiers": ["left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -3548,8 +3593,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
-                                        "modifiers": [],
+                                        "key_code": "down_arrow",
+                                        "modifiers": ["left_gui"],
                                         "repeat": true
                                     }
                                 ],
@@ -3693,6 +3738,12 @@
                                     "key_code": "k",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -3709,8 +3760,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow",
-                                        "modifiers": ["fn"],
+                                        "key_code": "left_arrow",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3730,8 +3781,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "o",
-                                        "modifiers": ["left_control"],
+                                        "key_code": "down_arrow",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3751,8 +3802,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow",
-                                        "modifiers": ["fn"],
+                                        "key_code": "right_arrow",
+                                        "modifiers": [],
                                         "repeat": true
                                     }
                                 ],
@@ -3770,6 +3821,12 @@
                                     "key_code": "right_shift",
                                     "modifiers": { "optional": ["any"] }
                                 },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "repeat": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
