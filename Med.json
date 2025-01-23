@@ -19,6 +19,11 @@
               "key_down_order": "insensitive",
               "key_up_order": "insensitive",
               "key_up_when": "all"
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
