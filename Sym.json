@@ -717,7 +717,7 @@
           },
           "to": [
             {
-              "key_code": "backslash",
+              "key_code": "slash",
               "modifiers": [],
               "repeat": true
             }
@@ -924,10 +924,8 @@
           },
           "to": [
             {
-              "key_code": "return_or_enter",
-              "modifiers": [
-                "left_gui"
-              ],
+              "key_code": "backslash",
+              "modifiers": [],
               "repeat": true
             }
           ],
