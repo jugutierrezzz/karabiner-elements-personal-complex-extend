@@ -861,12 +861,7 @@
             }
           ],
           "from": {
-            "key_code": "right_gui",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
+            "key_code": "right_gui"
           },
           "type": "basic"
         },
@@ -914,10 +909,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "return_or_enter",
-              "modifiers": [
-                "left_gui"
-              ]
+              "key_code": "tab",
+              "modifiers": []
             }
           ]
         }
