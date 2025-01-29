@@ -51,10 +51,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "up_arrow",
-              "modifiers": [
-                "fn"
-              ]
+              "key_code": "left_shift",
+              "modifiers": []
             }
           ]
         },
