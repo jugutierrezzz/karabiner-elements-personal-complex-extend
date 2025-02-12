@@ -438,7 +438,7 @@
           },
           "to": [
             {
-              "key_code": "slash",
+              "key_code": "backslash",
               "modifiers": [],
               "repeat": true
             }
@@ -717,7 +717,7 @@
           },
           "to": [
             {
-              "key_code": "backslash",
+              "key_code": "slash",
               "modifiers": [],
               "repeat": true
             }
