@@ -102,7 +102,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "up_arrow",
+              "key_code": "d",
               "modifiers": [
                 "fn"
               ]
@@ -252,7 +252,7 @@
             }
           ],
           "from": {
-            "key_code": "s",
+            "key_code": "u",
             "modifiers": {
               "optional": [
                 "any"
@@ -473,10 +473,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "b",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -500,7 +498,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "up_arrow",
+              "key_code": "k",
               "modifiers": []
             }
           ],
@@ -525,10 +523,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow",
-              "modifiers": [
-                "left_alt"
-              ]
+              "key_code": "w",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -580,10 +576,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_gui"
-              ]
+              "key_code": "0",
+              "modifiers": []
             }
           ]
         },
@@ -606,7 +600,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "left_arrow",
+              "key_code": "h",
               "modifiers": []
             }
           ],
@@ -631,7 +625,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "down_arrow",
+              "key_code": "j",
               "modifiers": []
             }
           ],
@@ -656,7 +650,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow",
+              "key_code": "l",
               "modifiers": []
             }
           ],
@@ -682,9 +676,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow",
+              "key_code": "4",
               "modifiers": [
-                "left_gui"
+                "left_shift"
               ]
             }
           ]
@@ -705,7 +699,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "slash",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
@@ -727,11 +730,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "g",
-              "modifiers": [
-                "left_gui",
-                "left_shift"
-              ]
+              "key_code": "comma",
+              "modifiers": []
             }
           ]
         },
@@ -755,9 +755,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "f",
+              "key_code": "8",
               "modifiers": [
-                "left_gui"
+                "left_shift"
               ]
             }
           ]
@@ -782,10 +782,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "g",
-              "modifiers": [
-                "left_gui"
-              ]
+              "key_code": "semicolon",
+              "modifiers": []
             }
           ]
         },
@@ -805,7 +803,13 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "slash"
+            }
+          ]
         },
         {
           "conditions": [
