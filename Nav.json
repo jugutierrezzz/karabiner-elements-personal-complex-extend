@@ -102,7 +102,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "d",
+              "key_code": "u",
               "modifiers": [
                 "left_control"
               ]
@@ -262,7 +262,7 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "u",
+              "key_code": "d",
               "modifiers": [
                 "left_control"
               ]
