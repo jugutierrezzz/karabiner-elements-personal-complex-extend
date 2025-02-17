@@ -720,7 +720,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "modifiers": [
+                "left_gui"
+              ],
+              "key_code": "delete_or_backspace"
+            }
+          ]
         },
         {
           "conditions": [
@@ -742,7 +751,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "delete_or_backspace"
+              "key_code": "delete_or_backspace",
+              "modifiers": []
             }
           ]
         },
@@ -784,10 +794,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "d",
-              "modifiers": [
-                "left_control"
-              ]
+              "key_code": "delete_forward",
+              "modifiers": []
             }
           ]
         },
@@ -807,7 +815,16 @@
               ]
             }
           },
-          "type": "basic"
+          "type": "basic",
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "k",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
         },
         {
           "conditions": [
