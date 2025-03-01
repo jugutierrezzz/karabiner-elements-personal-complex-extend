@@ -102,10 +102,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "u",
-              "modifiers": [
-                "left_control"
-              ]
+              "key_code": "page_up",
+              "modifiers": []
             }
           ],
           "type": "basic"
@@ -262,10 +260,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "d",
-              "modifiers": [
-                "left_control"
-              ]
+              "key_code": "page_down",
+              "modifiers": []
             }
           ],
           "type": "basic"
