@@ -769,8 +769,10 @@
           },
           "to": [
             {
-              "key_code": "open_bracket",
-              "modifiers": [],
+              "key_code": "close_bracket",
+              "modifiers": [
+                "left_shift"
+              ],
               "repeat": true
             }
           ],
@@ -794,10 +796,8 @@
           },
           "to": [
             {
-              "key_code": "close_bracket",
-              "modifiers": [
-                "left_shift"
-              ],
+              "key_code": "open_bracket",
+              "modifiers": [],
               "repeat": true
             }
           ],
