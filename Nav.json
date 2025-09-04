@@ -576,10 +576,8 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_gui"
-              ]
+              "key_code": "0",
+              "modifiers": []
             }
           ]
         },
@@ -678,9 +676,9 @@
           "to": [
             {
               "repeat": true,
-              "key_code": "right_arrow",
+              "key_code": "4",
               "modifiers": [
-                "left_gui"
+                "left_shift"
               ]
             }
           ]
